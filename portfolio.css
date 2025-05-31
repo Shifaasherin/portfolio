@@ -1,0 +1,131 @@
+
+ body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+} 
+.nav-item a:hover{
+   color:rgb(139, 139, 242);
+}
+/* .nav-link1{
+  color:rgb(139, 139, 242);
+} */
+
+.nav-item a{
+    color:aliceblue;
+}
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+
+      line-height: 1.6;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 20px;
+    }
+
+    .text-content {
+      flex: 1 1 500px;
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .text-content h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .text-content h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: white
+    }
+
+    .text-content h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    #web {
+      color: rgb(139, 139, 242);
+      font-weight: bold;
+    }
+
+    .text-content p {
+      font-size: 16px;
+      color: white;
+    }
+
+    .image-content {
+      flex: 1 1 300px;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .image-content img {
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      border: 3px solid rgb(139, 139, 242);
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      .text-content, .image-content {
+        text-align: center;
+      }
+
+      .text-content h1 {
+        font-size: 28px;
+      }
+
+      .text-content h3 {
+        font-size: 18px;
+      }
+
+      .text-content p {
+        font-size: 15px;
+      }
+    }
+    #name{
+         color:rgb(139, 139, 242);
+}
+    .imgdv{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .div1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    
+    }
+        .div2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+        .div3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+        .div4{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
